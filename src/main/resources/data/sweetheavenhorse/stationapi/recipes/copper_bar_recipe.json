@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sweetheavenhorse:copper_block"
+    }
+  ],
+  "result": {
+    "item": "sweetheavenhorse:copper_bar",
+    "count": 9
+  }
+}

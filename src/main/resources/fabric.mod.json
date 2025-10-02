@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "%s",
+  "id": "sweetheavenhorse",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Sweet Heaven Horse",
+  "description": "Welcome to Sweet Heaven Horse",
   "authors": [
-    "Me!"
+    "Clutchmaster38"
   ],
   "contact": {
     "homepage": "https://glass-launcher.net/",
@@ -14,12 +14,13 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/%s/icon.png",
+  "icon": "assets/sweetheavenhorse/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "%s.events.init.InitListener"
+      "io.github.clutchmaster38.sweetheavenhorse.events.init.InitListener",
+      "io.github.clutchmaster38.sweetheavenhorse.SweetHeavenHorse"
     ],
     "stationapi:event_bus_client": [
     ],
@@ -27,7 +28,7 @@
     ]
   },
   "mixins": [
-    "%s.mixins.json"
+    "sweetheavenhorse.mixins.json"
   ],
 
   "depends": {
