@@ -1,3 +1,4 @@
 # @ is a shorthand for the current mod id, which is sweetheavenhorse. E.g: tile.@.redclay.name
 tile.@.copper_block.name=Block of Copper
 item.@.copper_bar.name=Copper Ingot
+tile.@.copper_ore.name=Copper Ore

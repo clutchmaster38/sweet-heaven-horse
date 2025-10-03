@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sweetheavenhorse:copper_ore"
+  },
+  "result": {
+    "item": "sweetheavenhorse:copper_bar"
+  }
+}

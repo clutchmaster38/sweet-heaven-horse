@@ -1,6 +1,7 @@
 package io.github.clutchmaster38.sweetheavenhorse;
 
 import io.github.clutchmaster38.sweetheavenhorse.block.CopperBlock;
+import io.github.clutchmaster38.sweetheavenhorse.block.CopperOre;
 import io.github.clutchmaster38.sweetheavenhorse.item.CopperBar;
 import net.mine_diver.unsafeevents.listener.EventListener;
 import net.minecraft.block.Block;
@@ -22,12 +23,14 @@ public class SweetHeavenHorse {
     public static Logger LOGGER = Null.get();
 
     public static Block copperBlock;
+    public static Block copperOre;
 
     public static Item copperBar;
 
     @EventListener
     public void registerBlocks(BlockRegistryEvent event) {
         copperBlock = new CopperBlock(NAMESPACE.id("copper_block")).setTranslationKey(NAMESPACE, "copper_block");
+        copperOre = new CopperOre(NAMESPACE.id("copper_ore")).setTranslationKey(NAMESPACE, "copper_ore");
     }
 
     @EventListener
